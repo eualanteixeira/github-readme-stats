@@ -19,9 +19,10 @@ const GRAPHQL_REPOS_FIELD = `
     totalCount
     nodes {
       name
-      stargazers {
-        totalCount
-      }
+      // stargazers {
+      //   totalCount
+      // }
+    stargazerCount
     }
     pageInfo {
       hasNextPage

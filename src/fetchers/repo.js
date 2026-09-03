@@ -21,10 +21,9 @@ const fetcher = (variables, token) => {
         isPrivate
         isArchived
         isTemplate
-        // stargazers {
-        //   totalCount
-        // }
-        stargazerCount
+        stargazers {
+  totalCount
+}
         description
         primaryLanguage {
           color

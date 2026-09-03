@@ -12,7 +12,9 @@ query gistInfo($gistName: String!) {
             owner {
                 login
             }
-            stargazerCount
+            stargazers {
+  totalCount
+}
             forks {
                 totalCount
             }
